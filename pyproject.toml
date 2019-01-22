@@ -2,11 +2,18 @@
 name = "django-manage"
 version = "0.1.0"
 description = "'django-manage' is a new tool to manage the django application on the command line."
-license = "GPL-3.0"
 authors = ["Fatih Sarhan <f9n@protonmail.com>"]
+license = "GPL-3.0"
 readme = "README.md"
 homepage = "https://github.com/f9n/django-manage"
 repository = "https://github.com/f9n/django-manage"
+documentation = "https://github.com/f9n/django-manage"
+
+classifiers = [
+  "Topic :: Utilities",
+  "Framework :: Django",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
 
 [tool.poetry.dependencies]
 python = "^3.5"
